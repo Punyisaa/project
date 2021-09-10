@@ -24,7 +24,7 @@ height="250" width="500" frameBorder="0" title="Iframe Example"></iframe>
    }?> 
  <br>   
 <iframe src="https://thingspeak.com/channels/1464734/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
-width="500" frameBorder="0" title="Iframe Example"></iframe>
+height="250" width="500" frameBorder="0" title="Iframe Example"></iframe>
 <?php
    foreach ($user_data as $user) {
 	echo "Temperature: ".$user->field2; 
@@ -32,7 +32,7 @@ width="500" frameBorder="0" title="Iframe Example"></iframe>
    }?> 
  <br>
 <iframe src="https://thingspeak.com/channels/1464734/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
-width="500" frameBorder="0" title="Iframe Example"></iframe>
+height="250" width="500" frameBorder="0" title="Iframe Example"></iframe>
 <?php
    foreach ($user_data as $user) {
 	echo "Light: ".$user->field3; 
@@ -40,6 +40,8 @@ width="500" frameBorder="0" title="Iframe Example"></iframe>
    }?> 
  <br>                                       
 <iframe src="https://https://thingspeak.com/channels/1464734/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15
-<br>         
+height="250" width="500" frameBorder="0" title="Iframe Example"></iframe>
+<br>
+<iframe src="https://thingspeak.com/channels/1464734/maps/channel_show" height="250" width="500" frameBorder="0" title="Iframe Example"></iframe>
  </body>
 </html>
