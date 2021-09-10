@@ -35,7 +35,7 @@ height="250" width="500" frameBorder="0" title="Iframe Example"></iframe>
 height="250" width="500" frameBorder="0" title="Iframe Example"></iframe>
 <?php
    foreach ($user_data as $user) {
-	echo "Light: ".$user->field3; 
+	echo "Light status: ".$user->field3; 
       echo " FC ";
    }?> 
  <br>                                       
